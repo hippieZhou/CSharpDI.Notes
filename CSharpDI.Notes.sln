@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControOverTheFlowOfAProgram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionTheFlowOfProgram", "00.InversionOfControl\InversionTheFlowOfProgram\InversionTheFlowOfProgram.csproj", "{FF077302-D376-4805-994C-CFFEDA299B5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.InversionOfControlOO", "01.InversionOfControlOO", "{3074FE97-E116-4746-91E1-818DC950F085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InversionOfControlOO", "01.InversionOfControlOO\InversionOfControlOO\InversionOfControlOO.csproj", "{FEDB12EA-1AB3-4308-B6DD-A1700812471D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{FF077302-D376-4805-994C-CFFEDA299B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF077302-D376-4805-994C-CFFEDA299B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF077302-D376-4805-994C-CFFEDA299B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDB12EA-1AB3-4308-B6DD-A1700812471D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDB12EA-1AB3-4308-B6DD-A1700812471D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDB12EA-1AB3-4308-B6DD-A1700812471D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDB12EA-1AB3-4308-B6DD-A1700812471D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{56130323-70EB-4C8F-9DF8-51F9F188DE35} = {6CCB17AD-A395-4470-94AE-E4F9EBA6B826}
 		{FF077302-D376-4805-994C-CFFEDA299B5B} = {6CCB17AD-A395-4470-94AE-E4F9EBA6B826}
+		{FEDB12EA-1AB3-4308-B6DD-A1700812471D} = {3074FE97-E116-4746-91E1-818DC950F085}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CF095F9D-725F-4650-B5C7-3E28346F13E7}
