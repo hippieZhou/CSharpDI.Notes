@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _00.InversionTheFlowOfProgram
+namespace InversionTheFlowOfProgram
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -39,8 +39,7 @@ namespace _00.InversionTheFlowOfProgram
 
         private void SaveToDB(string firstName, string lastName)
         {
-            //在這裡需要將輸入的姓、名，寫入到資料庫內
-            Message.Text = $"{lastName} {firstName} 已經寫入到資料庫內了";
+            Message.Text = $"{lastName} {firstName} 已经写入到数据库中了";
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _00.InversionTheFlowOfProgram.Properties
+namespace InversionTheFlowOfProgram.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace _00.InversionTheFlowOfProgram.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_00.InversionTheFlowOfProgram.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("InversionTheFlowOfProgram.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

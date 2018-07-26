@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{757CDF2B-8868-4E18-9052-50AEFDC4C02C}</ProjectGuid>
+    <ProjectGuid>{56130323-70EB-4C8F-9DF8-51F9F188DE35}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_00.ControOverTheFlowOfAProgram</RootNamespace>
-    <AssemblyName>00.ControOverTheFlowOfAProgram</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>ControOverTheFlowOfAProgram</RootNamespace>
+    <AssemblyName>ControOverTheFlowOfAProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

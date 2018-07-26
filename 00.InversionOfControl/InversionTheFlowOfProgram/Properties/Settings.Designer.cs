@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _00.InversionTheFlowOfProgram.Properties
+namespace InversionTheFlowOfProgram.Properties
 {
 
 

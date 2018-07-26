@@ -4,29 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _00.ControOverTheFlowOfAProgram
+namespace ControOverTheFlowOfAProgram
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("请输入您的");
             bool continueExecution = true;
             do
             {
-                Console.Write("請輸入您的名字:");
+                Console.Write("请输入您的名称:");
                 var firstName = Console.ReadLine();
 
-                Console.Write("請輸入您的姓:");
+                Console.Write("请输入您的姓氏:");
                 var lastName = Console.ReadLine();
 
-                Console.Write("您是否要儲存? Y/N: ");
+                Console.Write("您是否要储存? Y/N: ");
 
                 var wantToSave = Console.ReadLine();
 
                 if (wantToSave.ToUpper() == "Y")
                     SaveToDB(firstName, lastName);
 
-                Console.Write("您是否要結束離開? Y/N: ");
+                Console.Write("您是否要结束离开? Y/N: ");
 
                 var wantToExit = Console.ReadLine();
 
@@ -38,8 +39,7 @@ namespace _00.ControOverTheFlowOfAProgram
 
         private static void SaveToDB(string firstName, string lastName)
         {
-            //在這裡需要將輸入的姓、名，寫入到資料庫內
-            Console.WriteLine($"{lastName} {firstName} 已經寫入到資料庫內了");
+            Console.WriteLine($"{lastName} {firstName} 已经写入数据库中");
         }
     }
 }

@@ -1,7 +1,7 @@
-﻿<Application x:Class="_00.InversionTheFlowOfProgram.App"
+﻿<Application x:Class="InversionTheFlowOfProgram.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:_00.InversionTheFlowOfProgram"
+             xmlns:local="clr-namespace:InversionTheFlowOfProgram"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
