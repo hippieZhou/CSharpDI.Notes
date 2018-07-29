@@ -56,6 +56,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.LifetimeManager", "19.Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.UnityInterception", "20.UnityInterception\20.UnityInterception.csproj", "{E1EE5BA9-7BED-4D4E-9B07-8A6D8E5CCDCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22.UnityAutoRegistration", "22.UnityAutoRegistration\22.UnityAutoRegistration.csproj", "{56D3B7D3-FB35-41DD-A887-390410E48B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.UnityConfigurationXML", "23.UnityConfigurationXML\23.UnityConfigurationXML.csproj", "{24E1BD28-A79B-4907-86F1-582E0A66E9F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +162,14 @@ Global
 		{E1EE5BA9-7BED-4D4E-9B07-8A6D8E5CCDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1EE5BA9-7BED-4D4E-9B07-8A6D8E5CCDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1EE5BA9-7BED-4D4E-9B07-8A6D8E5CCDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D3B7D3-FB35-41DD-A887-390410E48B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D3B7D3-FB35-41DD-A887-390410E48B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D3B7D3-FB35-41DD-A887-390410E48B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D3B7D3-FB35-41DD-A887-390410E48B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24E1BD28-A79B-4907-86F1-582E0A66E9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E1BD28-A79B-4907-86F1-582E0A66E9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E1BD28-A79B-4907-86F1-582E0A66E9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E1BD28-A79B-4907-86F1-582E0A66E9F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
